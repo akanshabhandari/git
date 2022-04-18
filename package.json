@@ -1,0 +1,27 @@
+{
+  "name": "git",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn git and node",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akanshabhandari/git.git"
+  },
+  "author": "Akansha Bhandari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akanshabhandari/git/issues"
+  },
+  "homepage": "https://github.com/akanshabhandari/git#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
